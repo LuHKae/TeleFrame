@@ -1,8 +1,24 @@
 { 
    "botToken":"",
-   "whitelistChats":[ 
-
-   ],
+   "whitelistChats":[ ],
+   "strings":{
+      "newPhotoMessage":"New image from",
+      "newVideoMessage":"New video from",
+	  "deleteMessage":"Really remove?",
+      "deleteConfirmText":"Remove",
+      "deleteCancelText":"Cancel",
+	  "shutdownMessage":"Really shutdown?",
+   	  "shutdownConfirmText":"Shutdown",
+   	  "shutdownCancelText":"Cancel",
+   	  "rebootMessage":"Really rboot?",
+   	  "rebootConfirmText":"Reboot",
+   	  "rebootCancelText":"Cancel",
+      "recordingMessageTitle":"Voice Message",
+      "recordingPreMessage":"Recording for",
+      "recordingPostMessage":"in progress...",
+      "recordingDone":"Voice message sent sucessfully!",
+      "recordingError":"Voice message has failed!"
+   }
    "playSoundOnRecieve":"sound1.mp3",
    "showVideos":true,
    "playVideoAudio":false,
@@ -11,25 +27,14 @@
    "fadeTime":1500,
    "interval":10000,
    "imageCount":30,
-   "newPhotoMessage":"New image from",
-   "newVideoMessage":"New video from",
    "showSender":true,
    "showCaption":true,
    "toggleMonitor":false,
    "turnOnHour":9,
    "turnOffHour":22,
    "confirmDeleteImage":true,
-   "deleteMessage":"Really remove?",
-   "deleteConfirmText":"Remove",
-   "deleteCancelText":"Cancel",
    "confirmShutdown":true,
-   "shutdownMessage":"Really shutdown?",
-   "shutdownConfirmText":"Shutdown",
-   "shutdownCancelText":"Cancel",
    "confirmReboot":true,
-   "rebootMessage":"Really rboot?",
-   "rebootConfirmText":"Reboot",
-   "rebootCancelText":"Cancel",
    "touchBar":{ 
       "height":"75px",
       "autoHideTimeout":30000,
@@ -53,11 +58,6 @@
    },
    "voiceReply":{ 
       "key":"a",
-      "maxRecordTime":60000,
-      "recordingMessageTitle":"Voice Message",
-      "recordingPreMessage":"Recording for",
-      "recordingPostMessage":"in progress...",
-      "recordingDone":"Voice message sent sucessfully!",
-      "recordingError":"Voice message has failed!"
+      "maxRecordTime":60000
    }
 }
